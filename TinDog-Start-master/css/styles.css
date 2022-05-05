@@ -1,0 +1,147 @@
+.title{
+  background-color: #ff4c68;
+  padding: 3% 15% 7%;
+  color: white;
+}
+h1{
+font-family: Montserrat;
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight: 900;
+}
+h3{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+h2{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p{
+  color: #8f8f8f;
+}
+/* navbar */
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 200;
+
+}
+.nav1{
+  padding-left: 0;
+}
+/* download buttons */
+.downloadbutton{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-img{
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+/* feature */
+.feature{
+  padding: 7% 15%;
+  position: relative;
+  background-color: white;
+
+
+}
+.feature-box{
+  text-align: center;
+padding: 3%;
+}
+
+/* bootstrapicons */
+.ficons{
+  font-size: 3rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.ficons:hover{
+  color: #ff4628;
+}
+
+/* testimonial */
+.test{
+  text-align: center;
+background-color: #ef8172;
+color: white;
+}
+.test-img{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+
+}
+/* press */
+.presss{
+  text-align: center;
+  background-color: #ef8172;
+padding-bottom: 3%;
+
+}
+.presslogo{
+  width: 15%;
+  margin: 20px 20px 50px
+}
+/* pricing sec */
+.pricing{
+  padding: 100px;
+  text-align:center;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+/* cta */
+
+.cta{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 7% 15%;
+}
+.last-heading{
+  color: white;
+  margin-top: 20px;
+  font-size: 3.5rem;
+  font-family: Montserrat;
+  font-weight:900;
+line-height: 1.5;
+}
+/* footer */
+.footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.socials{
+  margin: 20px 10px;
+}
+@media (max-width: 1028px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  .title{
+    text-align: center;
+  }
+}
